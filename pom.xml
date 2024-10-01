@@ -11,4 +11,33 @@
         <maven.compiler.target>21</maven.compiler.target>
         <exec.mainClass>com.mycompany.controleequipamentos.ControleEquipamentos</exec.mainClass>
     </properties>
+    
+    <dependencies>
+    
+        <!-- Suporte a geração de LOG no servidor -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+			<scope>compile</scope>
+		</dependency>
+		
+		<!-- Suporte ao Java Enterprise -->
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+			<version>7.0</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<!-- Suporte ao JPA -->
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.core</artifactId>
+			<version>2.6.5-RC2</version>
+			<scope>provided</scope>
+		</dependency>
+        
+    </dependencies>
+    
 </project>
