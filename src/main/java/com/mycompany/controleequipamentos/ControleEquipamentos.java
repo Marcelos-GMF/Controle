@@ -1,4 +1,5 @@
 package com.mycompany.controleequipamentos;
+
 public class ControleEquipamentos {
 
     public static void main(String[] args) {
